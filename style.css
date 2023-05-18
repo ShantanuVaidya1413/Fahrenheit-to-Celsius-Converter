@@ -4,7 +4,7 @@ html {
 }
 :root{
     --blue: black;
-    --red: #ff5200;
+    --red: #42b4c4;
 }
 body{
     background: url("images/sky.jpg");
