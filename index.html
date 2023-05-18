@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+        <h2>Temp Convert</h2>
+        <section>
+            <select class="form-select" name="select" id="from">
+                <option value="" disabled selected>Convert From</option>
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <input class="form-control" type="number" id="value1" placeholder="Enter your value">
+            <select class="form-select" name="select" id="to">
+                <option value="" disabled selected>Convert To</option>
+                <option value="°c">Celsius</option>
+                <option value="k">Kelvin</option>
+                <option value="°F">Fahrenheit</option>
+            </select>
+            <input class="form-control mb-0" type="text" id="value2" disabled>
+            <span class="mb-3" id="info">Result</span>
+            <button id="convert">Convert</button>
+        </section>
+    </main>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

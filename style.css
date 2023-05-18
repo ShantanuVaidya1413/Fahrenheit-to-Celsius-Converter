@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+:root{
+    --blue: black;
+    --red: #ff5200;
+}
+body{
+    background: url("images/sky.jpg");
+    background-size: 100%;
+}
+main{
+    width: 95%;
+    max-width: 280px;
+    background: var(--red);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid white;
+    border-radius: 10px;
+}
+main h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    /*color: #0e5385;*/
+    color: rgba(255, 255, 255, .5);
+    background: var(--blue);
+    padding: 5px 0;
+    border-radius: 7px 7px 0 0;
+}
+main section{
+    padding: 15px 20px;
+    text-align: center;
+}
+main section select{
+    margin-bottom: 20px;
+    background: none!important;
+    border: 3px solid rgba(255, 255, 255, .5)!important;
+    color: white!important;
+    font-weight: bolder!important;
+}
+main section select option{
+    background: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+main section input{
+    margin-bottom: 20px;
+}
+#value2{
+    background: none;
+    border: none;
+    border-bottom: 5px solid white;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+#info{
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 10px 0!important;
+}
+main section button{
+    display: inline-block;
+    width: 100%;
+    border: none;
+    background: var(--blue);
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    outline: none;
+}
+main section button:active{
+    transform: scale(1.1);
+}
